@@ -25,7 +25,7 @@ p {
 
 /* === PAGE LAYOUT =========================================== */
 .page-wrap {
-  padding: 0 16px 48px;
+  /* padding: 0 16px 48px; */
   font-size: 16px;
   color: #444;
 }
