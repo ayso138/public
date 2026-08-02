@@ -476,7 +476,7 @@ a.manual-open-link:hover { background: #dce8fb; }
 }
 
 .activity-full-header {
-  padding: 16px 20px 0;
+  padding: 16px 60px 0 20px;
   background: #08529f;
 }
 
@@ -502,7 +502,7 @@ a.manual-open-link:hover { background: #dce8fb; }
 }
 
 .activity-meta {
-  margin: 0 -20px;
+  margin: 0 -60px 0 -20px;
   padding: 8px 20px;
   background: rgba(0,0,0,0.22);
   color: rgba(255,255,255,0.82);
@@ -778,6 +778,18 @@ details.activity-full > summary:hover::after { background: rgba(255,255,255,0.32
   .header { padding: 20px 16px; }
   .card   { padding: 16px 0 0; }
   .rules-grid { grid-template-columns: 1fr; }
+
+  .activity-full-header { padding: 14px 52px 0 16px; }
+  .activity-full-header h4 { font-size: 19px; }
+  .activity-meta { margin: 0 -52px 0 -16px; padding: 8px 16px; }
+  details.activity-full > summary::after {
+    right: 10px;
+    top: 11px;
+    width: 32px;
+    height: 32px;
+    font-size: 24px;
+    line-height: 32px;
+  }
 }
 
 /* === REGISTRATION PAGE STYLES ============================= */
