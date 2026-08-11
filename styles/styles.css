@@ -203,6 +203,17 @@ ol.steps li { margin-bottom: 8px; }
 }
 .btn-link-red:hover { background: #c10230; }
 
+/* btn-link color override — defeats the .page-wrap a:link !important rule */
+.page-wrap a.btn-link,
+.page-wrap a.btn-link:link,
+.page-wrap a.btn-link:visited,
+.page-wrap a.btn-link:active { color: #fff !important; }
+
+.page-wrap a.btn-link-red,
+.page-wrap a.btn-link-red:link,
+.page-wrap a.btn-link-red:visited,
+.page-wrap a.btn-link-red:active { color: #fff !important; }
+
 /* === TABLES ================================================ */
 table { width: 100%; border-collapse: collapse; font-size: 16px; margin: 12px 0; }
 th { background: #08529f; color: #fff; padding: 10px 14px; text-align: left; font-size: 16px; }
