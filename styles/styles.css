@@ -16,9 +16,7 @@ body { font-family: Arial, Helvetica, sans-serif; }
 h1, h2, h3, h4 { font-weight: 700; }
 h1 { text-transform: uppercase; }
 h4 { color: #fff; }
-h1, h2, h3, h4, h5, h6 {
-    padding: 0 0 0 0 !important;
-}
+h1, h2, h3, h4, h5, h6 { padding: 0 0 0 0 !important; }
 
 h1, 
 
